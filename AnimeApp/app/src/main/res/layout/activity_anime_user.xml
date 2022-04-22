@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AnimeUserActivity">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/profile_image"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="129dp"
+        android:src="@drawable/aharen" />
+
+    <TextView
+        android:id="@+id/secondFile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/profile_image"
+        android:text=""
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/fullname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/secondFile"
+        android:layout_marginStart="50dp"
+        android:text="ชื่ออนิเมะ:"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/nameUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/secondFile"
+        android:layout_marginStart="15dp"
+        android:layout_toEndOf="@id/fullname"
+        android:text="ชื่อ"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/story"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fullname"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="28dp"
+        android:text="เนื้อเรื่องย่อ:"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/fullsoty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nameUser"
+        android:layout_marginStart="-103dp"
+        android:layout_marginTop="59dp"
+        android:layout_toEndOf="@id/story"
+        android:text="เนื้อเรื่อง"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/animeWeb"
+        android:layout_width="82dp"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="286dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="43dp"
+        android:text="ดูได้ที่"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

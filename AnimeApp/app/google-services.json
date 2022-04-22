@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "198727442498",
+    "project_id": "animeapp-ca585",
+    "storage_bucket": "animeapp-ca585.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:198727442498:android:d7a6ef82c560162185cddb",
+        "android_client_info": {
+          "package_name": "th.ac.kku.cis.mobileapp.animeapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "198727442498-otnai9cj8limhhegq5jog66f57jjvrb7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "th.ac.kku.cis.mobileapp.animeapp",
+            "certificate_hash": "c2029d779264fb6f008304c6e83f427a25777c13"
+          }
+        },
+        {
+          "client_id": "198727442498-db0uraaeekv2s51jn5t2tved438eg038.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbW8sIZwHKTAJUb45ySN9w99rL003iouc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "198727442498-db0uraaeekv2s51jn5t2tved438eg038.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
